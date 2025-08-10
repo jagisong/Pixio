@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #2d89ef;
+  --secondary-color: #f5f6fa;
+  --font-family: 'Segoe UI', Arial, sans-serif;
+  --font-size-base: 16px;
+  --background-color: #ffffff;
+  --text-color: #222222;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
